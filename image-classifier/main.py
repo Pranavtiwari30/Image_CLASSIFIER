@@ -40,7 +40,6 @@ loss, accuracy = model.evaluate(testing_images, testing_labels)
 print(f"Loss: {loss}")
 print(f"Accuracy: {accuracy}")
 
-# Save the model in .keras format
 model.save('image_classifier.keras')
 
 # Load and test the model with a custom image
